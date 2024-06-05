@@ -1,0 +1,151 @@
+/*<!-- Made by Priyanshu CHoudhary github:https://github.com/Priyanshu0714 -->*/
+body,html{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center	;
+	backdrop-filter: blur(10px);
+	background-color: 	#E0E0E0;
+	font-family: "Poppins";
+}
+:root{
+	--height:48px;
+	--width:93.5%;
+	--borderRadius:5px;
+	--grey:#c0c0c0;
+	--paddingleft:15px;
+}
+
+.LoginPage{
+	height: 480px;
+	width: 390px;
+	background-color: white;
+	border-radius: 8px;
+	padding:20px 25px;
+	padding-right: 20px;
+	position: relative;
+}
+.Heading,.loginExit{
+	font-weight: 450;
+	color:#505050;
+	font-size: 30px;
+	text-decoration: none;
+	margin-bottom: 100px;
+}
+.loginExit{
+	position: relative;
+	left: 250px;
+}
+#name,#email{
+	height: var(--height);
+	width: var(--width);
+	border-radius: var(--borderRadius);
+	margin-top:15px;
+	border: 1px solid #c0c0c0;
+	padding-left: var(--paddingleft);
+	font-size: 20px;
+}
+#email{
+	margin-bottom: 20px;
+}
+#name::placeholder{
+	color: #c0c0c0;
+	font-size: 20px;
+}
+#email::placeholder{
+	color: #c0c0c0;
+	font-size: 20px;
+}
+.main{
+	margin-top: 20px;
+}
+input[type="checkbox"]{
+	margin: 18px 0;
+	margin-top: 0;
+	accent-color: rgb(239, 79, 95, 1.0);
+	height: 15px;
+	width: 15px;
+	outline: 0.5px auto grey;
+}
+input[type="checkbox"]:hover{
+	outline: 1px auto rgb(239, 79, 85, 1.0);
+}
+.CheckboxCondition{
+	font-size: 11px;
+	margin-left: 8px;
+	font-weight: 300;
+	position: relative;
+	bottom: 7px;
+}
+.conditions{
+	font-size: 12px;
+	color: rgb(239, 79, 95, 1.0);
+	font-weight: 500;
+	text-decoration: none;
+}	
+.specialCondition{
+	position: relative;
+	left: 27px;
+	bottom: 20px;
+}
+
+#CreateAccount,#google{
+	min-height: var(--height);
+	min-width: 98.5%;
+	border-radius: var(--borderRadius);
+	border: 1px solid lightgrey;
+	background-color: rgb(239, 79, 95, 1.0);
+	color: white;
+	font-size: 15px;
+	position: relative;
+	bottom: 17px;
+}
+#CreateAccount:hover{
+	cursor: pointer;
+	background-color: #d74755;
+}
+#google:hover{
+	cursor: pointer;
+}
+hr{
+	margin-right: 5px;
+	border: none;
+	height: 1px;
+	background-color:#DCDCDC;
+}
+.hrContent{
+	height: 22px;
+	width: 22px;
+	background-color: white;
+	color: grey;
+	position: relative;
+	bottom: 24px;
+	left: 180px;
+	font-size: 20px;
+}
+#google{
+	margin-top:12px;
+	background-color: white;
+	color: black;
+}
+.fa-google{
+	position: relative;
+	bottom: 52px;
+	left: 100px;
+}
+.Footer{
+	position: relative;
+	bottom: 20px;
+}
+.bottomLine{
+	margin-top: 16px;
+	font-size: 17px;
+	font-weight: 300;
+	position: relative;
+	bottom: 18px;
+}
+.bottomAnchor{
+	color: rgb(239, 79, 95, 1.0);
+	cursor: pointer;
+	text-decoration: none;
+}

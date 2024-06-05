@@ -1,0 +1,52 @@
+<!-- Made by Priyanshu CHoudhary github:https://github.com/Priyanshu0714 -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zomato</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\hp\Documents\programming\html\Zomato-SignIn_page.css">
+	<!-- Zomato logo in the tab -->
+	<link
+	rel="icon"
+	type="image/x-icon"
+	href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png"
+	/>
+
+	<!-- Font awesome icons -->
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+	/>
+
+	<!-- Poppins font by google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+	rel="stylesheet"
+	/>
+</head>
+<body>
+	<div class="LoginPage">
+		<span class="Heading">Sign Up</span>
+		<a href=".\Zomato-landing-page.html" class="loginExit"><i class="fa-solid fa-x fa-2xs" style="color: #000000;"></i></a>
+		<div class="main">
+			<input type="text" id="name" placeholder="Full Name" pattern="^[a-z A-Z]$" required>
+			<input type="email" id="email" placeholder="Email" pattern="^[a-z A-Z 0-9]+@[a-z A-Z]+\.[a-z]$" required>
+			<span class="CheckboxContent">
+				<input type="checkbox">
+				<span class="CheckboxCondition">I agree to Zomato's <a href="#" class="conditions">Terms of Service</a>, <a href="#" class="conditions">Privacy Policy</a> and <a href="#" class="conditions specialCondition">Content Policies</a></span>
+			</span>
+			<input type="button" value="Create Account" id="CreateAccount">
+			<hr><div class="hrContent">or</div>
+			<input type="button" id="google" value="Sign in with Google"><i class="fa-brands fa-google fa-lg" style="color: #ef4f5f;"></i>
+			<hr class="Footer">
+			<div class="bottomLine">Already have an account? <a href=".\Zomato-Login_page.html" class="bottomAnchor">Log in</a></div>
+		</div>
+	</div>
+</body>
+</html>

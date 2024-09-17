@@ -1,0 +1,134 @@
+/*<!-- Made by Priyanshu CHoudhary github:https://github.com/Priyanshu0714 -->*/
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+	background-color: 	#E0E0E0;
+}
+:root{
+	--height:48px;
+	--width:93.5%;
+	--borderRadius:5px;
+}
+
+.LoginPage{
+	height: 430px;
+	width: 400px;
+	background-color: white;
+	border-radius: 8px;
+	padding:20px 25px;
+	padding-right: 20px;
+	position: relative;
+}
+.Heading,.loginExit{
+	font-family: "Poppins";
+	font-weight: 450;
+	color:#505050;
+	font-size: 30px;
+	text-decoration: none;
+}
+.loginExit{
+	position: relative;
+	left: 300px;
+}
+.PhoneNumber,.PhoneNumber2{
+	height: var(--height);
+	width: 120px;
+	margin: 30px 0 15px 0;
+	border-radius: var(--borderRadius);
+	border: 1.5px solid lightgrey;;
+	margin-right: 0;
+}
+.PhoneNumber2{
+	margin-left: 0;
+	position: relative;
+	right: 20px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	width: 260px;
+	padding-left: 20px;
+}
+.PhoneNumber::placeholder{
+	font-size: 16px;
+	text-align: center;
+/*	color: #888888;*/
+	color: black;
+}
+.PhoneFlag{
+	position: absolute;
+	top: 106px;
+	left: 35px;
+	display: block;
+	height: 5%;
+	width: 6%;
+}
+.PhoneNumber2::placeholder{
+	font-size: 15px;
+}
+
+.fa-angle-down{
+	position: relative;
+	right: 30px;
+}
+#Otp:hover{
+	cursor: pointer;
+	background-color: #d74755;
+}
+#Otp{
+	font-size: 15px;
+	height: var(--height);
+	width: 93.5%;
+	margin: 8px 0;
+	border-radius: var(--borderRadius);
+	background-color: #ef4f5f;
+	border: 1px solid transparent;
+	color: white;
+	margin-bottom: 10px;
+}
+.customHr{
+	margin-right: 26px;
+	border: none;
+	height: 1px;
+	background-color:#DCDCDC;
+}
+.hrContent{
+	height: 22px;
+	width: 22px;
+	background-color: white;
+	color: grey;
+	position: relative;
+	bottom: 24px;
+	left: 180px;
+	font-size: 20px;
+	font-family: "Poppins";
+}
+#email,#google{
+	min-height: var(--height);
+	min-width: var(--width);
+	border-radius: var(--borderRadius);
+	border: 1px solid lightgrey;
+	background-color: white;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+#email:hover,#google:hover{
+	cursor: pointer;
+}
+.fa-envelope,.fa-google{
+	position: relative;
+	right: 71%;
+}
+#google{
+	margin-bottom: 25px;
+}
+.bottomLine{
+	margin-top: 16px;
+	font-size: 15px;
+	font-family: "Poppins";
+}
+.bottomAnchor{
+	color: rgb(239, 79, 95, 1.0);
+	cursor: pointer;
+	text-decoration: none;
+}
